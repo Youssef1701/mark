@@ -10,8 +10,8 @@ let URL = `https://${PROJECT_ID}.api.sanity.io/v2022-07-11/data/query/${DATASET}
 fetch(URL)
   .then((res) => res.json())
   .then(({ result }) => {
-
-   //console.log(result);
+    
+   console.log(result);
 
     let modal = document.getElementsByClassName("modal-content-wrapper"); 
     let thumbnail = document.getElementsByClassName("thumbnail");
