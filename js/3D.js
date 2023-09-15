@@ -132,7 +132,7 @@ gltfLoader.load(
     var tree = gltf.scene.getObjectByName( 'tree');
     let treeMaterial = new THREE.MeshLambertMaterial();
     const color = new THREE.Color();
-    const treePalette = [ 0xCEFFBD, 0xCEFFBD, 0xCEFFBD];
+    const treePalette = [ 0x174C05, 0x174C05, 0x174C05];
 
         for ( let i = 0; i < 80; i ++ ) {
                 sampler.sample(tempPosition);
