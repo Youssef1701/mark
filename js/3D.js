@@ -82,11 +82,11 @@ gltfLoader.load(
     var stem = gltf.scene.getObjectByName( 'Stem');
 
     let blossomMaterial = new THREE.MeshLambertMaterial({
-        emissive: new THREE.Color(0xBDD1FF).convertSRGBToLinear(),
+        emissive: new THREE.Color(0x979797).convertSRGBToLinear(),
         emissiveIntensity: 0.5,
     });
     const color = new THREE.Color();
-    const blossomPalette = [ 0xBDD1FF, 0xD5E1FF, 0xEEF2FF  ];
+    const blossomPalette = [ 0x979797, 0x979797, 0x979797  ];
 
         for ( let i = 0; i < 500; i ++ ) {
 
